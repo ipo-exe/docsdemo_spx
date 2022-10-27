@@ -22,4 +22,5 @@ Contents
 
    Home <self>
    usage
+   iofiles
    api
