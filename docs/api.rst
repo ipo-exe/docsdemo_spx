@@ -1,4 +1,4 @@
-Example: api.rst — The trianglelib API reference
+API reference
 ================================================
 
 .. automodule:: thelib
