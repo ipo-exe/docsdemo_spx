@@ -18,7 +18,7 @@ import numpy as np
 __version__ = "0.1.0"
 
 
-def get_random_numper(nsize:int=10):
+def get_random_numper(nsize=10):
     """
     Returns a ``numpy`` array of integer random numbers.
 
