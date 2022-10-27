@@ -16,3 +16,4 @@ for the programmer who needs to support triangles:
     the extra step of creating an object.
 
 """
+__version__ = "0.1.0"
