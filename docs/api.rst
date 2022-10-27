@@ -1,17 +1,7 @@
-API reference
-================================================
+API Reference
+=============
 
-.. automodule:: thelib
-   :members:
+.. autosummary::
+   :toctree: generated
 
-The “lumache” module
-------------------
-
-.. automodule:: thelib.lumache
-   :autosummary:
-
-The “other” module
-------------------
-
-.. automodule:: thelib.other
-   :autosummary:
+   thelib
