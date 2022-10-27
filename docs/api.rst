@@ -1,8 +1,16 @@
-API Reference
-===
+Example: api.rst — The trianglelib API reference
+================================================
 
-.. autosummary::
-   :toctree: generated
+.. automodule:: thelib
+   :members:
 
-   lumache
-   other
+The “lumache” module
+------------------
+
+.. automodule:: thelib.lumache
+
+The “other” module
+------------------
+
+.. automodule:: thelib.other
+   :members:
