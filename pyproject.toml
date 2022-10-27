@@ -5,5 +5,5 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "thelib"
 version = "0.1.0"
+description = "demo example package"
 authors = [{name = "Ipo", email = "possantti@gmail.com"}]
-dynamic = ["version", "description"]
