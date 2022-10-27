@@ -5,3 +5,8 @@ API Reference
    :toctree: generated
 
    thelib
+
+.. autosummary::
+   :toctree: generated
+
+   thelib.lumache
