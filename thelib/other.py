@@ -1,6 +1,8 @@
 """
 Other - Python library for cooks and food lovers.
 
+ah shit!
+
 This is a Python docstring, we can use reStructuredText syntax here!
 
 .. code-block:: python
