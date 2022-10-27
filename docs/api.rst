@@ -8,10 +8,10 @@ The “lumache” module
 ------------------
 
 .. automodule:: thelib.lumache
-   :members:
+   :autosummary:
 
 The “other” module
 ------------------
 
 .. automodule:: thelib.other
-   :members:
+   :autosummary:
