@@ -13,4 +13,3 @@ The “other” module
 ------------------
 
 .. automodule:: thelib.other
-   :members:
