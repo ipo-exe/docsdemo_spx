@@ -1,7 +1,5 @@
 """
-Other - Python library for cooks and food lovers.
-
-ah shit!
+other - Python library for cooks and food lovers.
 
 This is a Python docstring, we can use reStructuredText syntax here!
 
@@ -13,18 +11,24 @@ This is a Python docstring, we can use reStructuredText syntax here!
     # Call its only function
     get_random_ingredients(kind=["cheeses"])
 """
-import numpy as np
 
 __version__ = "0.1.0"
 
 
-def get_random_numper(nsize=10):
-    """
-    Returns a ``numpy`` array of integer random numbers.
+class InvalidKindError(Exception):
+    """Raised if the kind is invalid."""
 
-    :param nsize: size of array.
-    :type nsize: int or None
-    :return: the random array.
-    :rtype: ndarray
+    pass
+
+
+def get_ordinal_ingredients(kind=None):
     """
-    return np.random.randint(0, 10, nsize)
+    Return a list of obvios ingredients as strings.
+
+    :param kind: Optional "kind" of ingredients.
+    :type kind: list[str] or None
+    :raise lumache.InvalidKindError: If the kind is invalid.
+    :return: The ingredients list.
+    :rtype: list[str]
+    """
+    return ["shells", "gorgonzola", "parsley"]
