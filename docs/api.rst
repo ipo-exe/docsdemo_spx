@@ -9,10 +9,9 @@ API Reference
 .. autosummary::
    :toctree: generated
 
-   thelib.other
- 
+   thelib.lumache
+
 .. autosummary::
    :toctree: generated
 
-   thelib.lumache
-
+   thelib.other
