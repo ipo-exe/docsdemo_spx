@@ -5,7 +5,7 @@ Example: Basic Sphinx project for Read the Docs
     :target: https://example-sphinx-basic.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: https://github.com/ipo-exe/docsdemo_spx/blob/main/docs/figs/fig.png
+.. image:: https://raw.githubusercontent.com/ipo-exe/docsdemo_spx/main/docs/figs/fig.png
     :width: 400
     :alt: an image
 
