@@ -11,11 +11,18 @@ A cool image
     :width: 200 px
     :alt: an image
 
+A Figure
+
+.. figure:: https://raw.githubusercontent.com/ipo-exe/docsdemo_spx/main/docs/figs/cat.gif
+   :scale: 20 %
+   :figwidth: 200 px
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+
 .. DANGER::
    Beware killer rabbits!
    
-
-
 .. This README.rst should work on Github and is also included in the Sphinx documentation project in docs/ - therefore, README.rst uses absolute links for most things so it renders properly on GitHub
 
 This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
@@ -26,7 +33,7 @@ This example shows a basic Sphinx project with Read the Docs. You're encouraged 
     :widths: 33, 33, 33
     :header-rows: 0
     
-.. list-table:: Title
+.. list-table:: Table Title
    :widths: 25 25 50
    :header-rows: 1
 
