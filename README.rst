@@ -129,6 +129,6 @@ Cross-Refs
 
 .. Place taget to paragraph
 
-.. my_target:
+.. _my target:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu egestas ipsum. Curabitur aliquam, nulla eget ornare commodo, nisl lectus auctor felis, quis facilisis libero justo ac nisl. Maecenas efficitur arcu sem, vitae vehicula purus posuere vitae. Donec at justo justo. Phasellus eros nisl, malesuada quis convallis eu, gravida vel magna. Mauris varius nunc vel dui fringilla pellentesque. Phasellus eget laoreet ligula. Mauris sed aliquam dui, ac lacinia nisi. 
 
