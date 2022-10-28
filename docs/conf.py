@@ -18,12 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = "Basic Sphinx Demo Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+copyright = "2022, Ipora Possantti"
+author = "Ipora Possantti"
 
 
 # -- General configuration ---------------------------------------------------
-# -- General configuration
 
 extensions = [
     "sphinx.ext.duration",
@@ -61,3 +60,6 @@ html_theme = "sphinx_rtd_theme"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+# Enable numref
+numfig = True
