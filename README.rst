@@ -13,6 +13,11 @@ Example: Basic Sphinx project for Read the Docs
 
 This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
 
+
+.. csv-table:: Doctable
+    :file: /docs/table.csv
+
+
 📚 `docs/ <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/>`_
     A basic Sphinx project lives in ``docs/``. All the ``*.rst`` make up sections in the documentation.
 ⚙️ `.readthedocs.yaml <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/.readthedocs.yaml>`_
