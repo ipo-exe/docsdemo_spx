@@ -5,7 +5,7 @@ Example: Basic Sphinx project for Read the Docs
     :target: https://example-sphinx-basic.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: /docs/figs/fig.png
+.. image:: https://github.com/ipo-exe/docsdemo_spx/blob/main/docs/figs/fig.png
     :width: 400
     :alt: an image
 
@@ -13,10 +13,25 @@ Example: Basic Sphinx project for Read the Docs
 
 This example shows a basic Sphinx project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official `Read the Docs Tutorial <https://docs.readthedocs.io/en/stable/tutorial/index.html>`__.
 
+.. This is not displayed live in github
 .. csv-table:: Doctable
     :file: /docs/table.csv
     :widths: 33, 33, 33
-    :header-rows: 1
+    :header-rows: 0
+    
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
 
 📚 `docs/ <https://github.com/readthedocs-examples/example-sphinx-basic/blob/main/docs/>`_
     A basic Sphinx project lives in ``docs/``. All the ``*.rst`` make up sections in the documentation.
