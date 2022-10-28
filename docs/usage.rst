@@ -35,4 +35,4 @@ For example:
 Referencing things in other pages
 ---------------------------------
 
-Lorem ipsum dolor sit amet `my_target`_, consectetur adipiscing elit. Integer eu egestas ipsum. Curabitur aliquam, nulla eget ornare commodo, nisl lectus auctor felis, quis facilisis libero justo ac nisl.
+Lorem ipsum dolor sit amet :ref:`some disadvantages <my_target>`:, consectetur adipiscing elit. Integer eu egestas ipsum. Curabitur aliquam, nulla eget ornare commodo, nisl lectus auctor felis, quis facilisis libero justo ac nisl.
