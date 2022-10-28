@@ -13,6 +13,8 @@ A cool image
 
 A Figure
 
+.. _myfig:
+
 .. figure:: https://raw.githubusercontent.com/ipo-exe/docsdemo_spx/main/docs/figs/cat.gif
    :scale: 20 %
    :figwidth: 200 px
