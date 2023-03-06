@@ -20,6 +20,18 @@ class InvalidKindError(Exception):
 
     pass
 
+class MyClass:
+    
+    def __init__(self, s_name="MyName"):
+        """
+        Initiation of the MyClass object.
+        
+        :param s_name: Name of object.
+        :type s_name: str
+        """
+        self.name = s_name
+        print(self.name)
+
 
 def get_random_ingredients(kind=None):
     """
