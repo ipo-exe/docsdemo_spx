@@ -32,6 +32,21 @@ class MyClass:
         """
         self.name = s_name
         print(self.name)
+    
+    def do_stuff(self, s_str1, n_value):
+        """
+        A demo method.
+        
+        :param s_str1: string to print.
+        :type s_str1: str
+        :param n_value: value to print.
+        :type n_value: float
+        :return: a concatenated string
+        :rtype: str
+        
+        """
+        s_aux = s_str1 + str(n_value)
+        return s_aux
 
 
 def get_random_ingredients(kind=None):
