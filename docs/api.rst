@@ -30,3 +30,11 @@ Lumache functions
 -----------------
 
 .. autofunction:: thelib.lumache.get_random_ingredients
+
+
+Lumache classes
+-----------------
+
+.. autoclass:: thelib.lumache.MyClass
+   :members:
+ 
