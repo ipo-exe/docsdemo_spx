@@ -21,6 +21,7 @@ class InvalidKindError(Exception):
     pass
 
 class MyClass:
+    """A new Object"""
     
     def __init__(self, s_name="MyName"):
         """
